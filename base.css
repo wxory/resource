@@ -1,3 +1,4 @@
+/* 自定义按钮样式 */
 .a-btn {
   font-size: 16px;
   font-weight: bold;
@@ -8,7 +9,9 @@
   padding: 10px 20px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  text-decoration:none; 
+  text-decoration: none;
+  outline: none; 
+  display: inline-block; 
 }
 
 .a-btn:hover {
@@ -18,6 +21,7 @@
 .a-btn:focus {
   outline: none;
 }
+
 /* 下载块样式 */
 .dl-block {
   border: 1px solid #ccc;
